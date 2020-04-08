@@ -1,8 +1,8 @@
 export default {
-  dbUrl: 'mongodb://root:123456@101.132.102.217:27017/mt-app?authSource=admin',
+  dbUrl: 'mongodb://127.0.0.1:27017/mt-app',
   radis: {
     get host () {
-      return '101.132.102.217'
+      return '127.0.0.1'
     },
     get port () {
       return 6379
@@ -13,7 +13,7 @@ export default {
       return 'smtp.qq.com'
     },
     get user () {
-      return '1045303254@qq.com'
+      return 'xxxxx@qq.com'
     },
     get pass () {
       return 'pnutzedtixnubcgb'
